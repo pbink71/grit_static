@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grit Coffee</title>
     <link rel="icon" href="images/Grit.ico" type="image/x-icon">
     <style>
@@ -54,16 +55,22 @@
 </head>
 <body>
     <div class="container">
-        <img class="logo" src="images/GRIT Label 4.jpg" alt="Grit Coffee Logo">
-        <h1>Grit Coffee is here!</h1>
-        <p>We're excited to announce our new coffee selection. Check out our menu below!</p>
+        <header>
+            <img class="logo" src="images/GRIT Label 4.jpg" alt="Grit Coffee Logo">
+            <h1>Grit Coffee is here!</h1>
+        </header>
+        <main>
+            <p>We're excited to announce our new coffee selection. Check out our menu below!</p>
         <table>
+            <thead>
             <tr>
-                <th></th>
-                <th>Country</th>
-                <th>Region / estate</th>
-                <th>In the cup</th>
+                <th scope="col"></th>
+                <th scope="col">Country</th>
+                <th scope="col">Region / estate</th>
+                <th scope="col">In the cup</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td><img class="flag" src="images/flags/nicaragua.png" alt="Nicaragua Flag"></td>
                 <td>Nicaragua</td>
@@ -77,19 +84,19 @@
                 <td>Roasted almond, stone fruit, chocolate, panela sugar</td>
             </tr>
             <tr>
-                <td><img class="flag" src="images/flags/Guatemala.png" alt="Guatamala Flag"></td>
+                <td><img class="flag" src="images/flags/Guatemala.png" alt="Guatemala Flag"></td>
                 <td>Guatemala</td>
                 <td>South Santa Rosa / Chuk Mool</td>
                 <td>Chocolate, Cocoa, spices, red grapes, roasted nuts</td>
             </tr>
             <tr>
-                <td><img class="flag" src="images/flags/Guatemala.png" alt="Guatamala Flag"></td>
+                <td><img class="flag" src="images/flags/Guatemala.png" alt="Guatemala Flag"></td>
                 <td>Guatemala</td>
                 <td>New Oriente</td>
                 <td>Nutty, chocolate, Cherries</td>
             </tr>
             <tr>
-                <td><img class="flag" src="images/flags/Guatemala.png" alt="Guatamala Flag"></td>
+                <td><img class="flag" src="images/flags/Guatemala.png" alt="Guatemala Flag"></td>
                 <td>Guatemala</td>
                 <td>Huehuetenango / Todosanteria</td>
                 <td>Red grape, almond, toffee</td>
@@ -113,25 +120,25 @@
                 <td>Poached red apples, burned caramel, scorched almonds, mulled wine</td>
             </tr>
             <tr>
-                <td><img class="flag" src="images/flags/repubblica-di-colombia.jpg" alt="Mexico Flag"></td>
+                <td><img class="flag" src="images/flags/repubblica-di-colombia.jpg" alt="Colombia Flag"></td>
                 <td>Colombia</td>
                 <td>Antuoqia, Medellin (North)</td>
                 <td>Sweet tobacco, chocolate cake, soft spices, stone fruit, molasses, roasted almonds</td>
             </tr>
             <tr>
-                <td><img class="flag" src="images/flags/repubblica-di-colombia.jpg" alt="Mexico Flag"></td>
+                <td><img class="flag" src="images/flags/repubblica-di-colombia.jpg" alt="Colombia Flag"></td>
                 <td>Colombia</td>
                 <td>Antuoqia, Medellin (North)</td>
                 <td>Sweet tobacco, chocolate, roasted almonds, burned caramel, starfruit</td>
             </tr>
             <tr>
-                <td><img class="flag" src="images/flags/Tanzania-Flags-Flag.webp" alt="Mexico Flag"></td>
+                <td><img class="flag" src="images/flags/Tanzania-Flags-Flag.webp" alt="Tanzania Flag"></td>
                 <td>Tanzania</td>
                 <td>Mebinga & Mbeya</td>
                 <td>Black current spices, wine, bittersweet choclate, roasted nuts, lemon zest</td>
             </tr>                        
             <tr>
-                <td><img class="flag" src="images/flags/Uganda.svg" alt="Mexico Flag"></td>
+                <td><img class="flag" src="images/flags/Uganda.svg" alt="Uganda Flag"></td>
                 <td>Uganda</td>
                 <td>Zombo</td>
                 <td>Molasses, roasted nuts, ghana chocolate, spices, black tea undertones</td>
@@ -208,7 +215,9 @@
                 <td>Aceh, Sumatra</td>
                 <td>Cherry, white grape, bergamot</td>
             </tr>                        
+            </tbody>
         </table>
+        </main>
     </div>
 </body>
 </html>
